@@ -22,7 +22,7 @@ for line in lines:
         continue
     strength = line.split(",")[2]
     fd_out.write("word_strength(" + word + ", " + strength + ")" + ".\n")
-fd_out.write("word_strength(" + "_" + ", " + str(0) + ")" + ".\n")
+fd_out.write("word_strength(" + "_" + ", " + str(0) + ")" + ",!.\n")
 
 fd.close()
 fd_out.close()
