@@ -17,12 +17,12 @@ for line in lines:
 
 # State words and its strengts
 for line in lines:
+    word = line.split(",")[0].replace("\"", "")
     if " " in word:
         continue
-    word = line.split(",")[0].replace("\"", "")
     strength = line.split(",")[2]
     fd_out.write("word_strength(" + word + ", " + strength + ")" + ".\n")
-
+fd_out.write("word_strength(" + "_" + ", " + str(0) + ")" + ".\n")
 
 fd.close()
 fd_out.close()
