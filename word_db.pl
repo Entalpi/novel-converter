@@ -1843,7 +1843,7 @@ word_class("missklä", vb).
 word_class("kyssa", vb).
 word_class("ointressant", av).
 word_class("föryngra", vb).
-word_class("just",  'juste').
+word_class("just", av).
 word_class("redig", av).
 word_class("förlora", vb).
 word_class("överse", vb).
@@ -1857,7 +1857,7 @@ word_class("snäll", av).
 word_class("självständig", av).
 word_class("segerglad", av).
 word_class("överförtjust", av).
-word_class("nedsatt",  'nersatt']).
+word_class("nedsatt", av).
 word_class("belåten", av).
 word_class("omogen", av).
 word_class("simpel", av).
@@ -1916,7 +1916,7 @@ word_class("enahanda", av).
 word_class("skojig", av).
 word_class("uppriktig", av).
 word_class("arm", av).
-word_class("dan",  'dann']).
+word_class("dan", av).
 word_class("anpassa", vb).
 word_class("hemtrevlig", av).
 word_class("flashig", av).
@@ -1928,7 +1928,7 @@ word_class("kontaminerbar", av).
 word_class("solkig", av).
 word_class("älskvärd", av).
 word_class("omstridd", av).
-word_class("oppåt",  'uppåt']).
+word_class("oppåt", av).
 word_class("lustelig", av).
 word_class("morbid", av).
 word_class("lyckligen", ab).
@@ -1947,7 +1947,7 @@ word_class("bekröna", vb).
 word_class("bjärt", av).
 word_class("inkorrekt", av).
 word_class("moloken", av).
-word_class("förmera",  'förmer']).
+word_class("förmera", av).
 word_class("skunkig", av).
 word_class("såld", av).
 word_class("avtvå", vb).
@@ -1959,7 +1959,7 @@ word_class("jubla", vb).
 word_class("tvålfager", av).
 word_class("väluppfostrad", av).
 word_class("energisk", av).
-word_class("nedgången",  'nergången']).
+word_class("nedgången", av).
 word_class("illparig", av).
 word_class("förstörd", av).
 word_class("modlös", av).
@@ -2010,7 +2010,7 @@ word_class("mankera", vb).
 word_class("fullkomlig", av).
 word_class("sekunda", av).
 word_class("sorgsen", av).
-word_class("ledsen",  'lessen']).
+word_class("ledsen", av).
 word_class("genomgod", av).
 word_class("excentrisk", av).
 word_class("fager", av).
@@ -2062,7 +2062,7 @@ word_class("sova", vb).
 word_class("överlägsen", av).
 word_class("glad", av).
 word_class("orenad", av).
-word_class("gôtt",  'gött']).
+word_class("gôtt", av).
 word_class("överlista", vb).
 word_class("lappa", vb).
 word_class("himlaboren", av).
@@ -2177,7 +2177,7 @@ word_class("logisk", av).
 word_class("sorgtyngd", av).
 word_class("fisig", av).
 word_class("orädd", av).
-word_class("sådär",  'så där']).
+word_class("sådär", avm).
 word_class("förnöjsam", av).
 word_class("genmodifierad", av).
 word_class("lycksalig", av).
@@ -2188,7 +2188,7 @@ word_class("lindrig", av).
 word_class("om", ab).
 word_class("hissa", vb).
 word_class("oja", vb).
-word_class("schangdobel",  'sjangdobel']).
+word_class("schangdobel", av).
 word_class("sanera", vb).
 word_class("operativ", av).
 word_class("avklara", vb).
@@ -2200,7 +2200,7 @@ word_class("pigg", av).
 word_class("murrig", av).
 word_class("estetisk", av).
 word_class("kryckig", av).
-word_class("dödssjuk",  'dösjuk']).
+word_class("dödssjuk", av).
 word_class("ergonometrisk", av).
 word_class("förbindlig", av).
 word_class("sebar", av).
@@ -2258,7 +2258,7 @@ word_class("utreda", vb).
 word_class("tjuvaktig", av).
 word_class("avancerad", av).
 word_class("småelak", av).
-word_class("ädelsinnad",  'ädelsint']).
+word_class("ädelsinnad", av).
 word_class("ohälsosam", av).
 word_class("halvbra", ab).
 word_class("viktig", av).
@@ -2301,7 +2301,7 @@ word_class("feberhet", av).
 word_class("överdriven", av).
 word_class("rosettprydd", av).
 word_class("deklinerbar", av).
-word_class("ilsk",  'ilsken']).
+word_class("ilsk", av).
 word_class("uppburen", av).
 word_class("sinnessvag", av).
 word_class("opasslig", av).
@@ -2309,7 +2309,7 @@ word_class("välartad", av).
 word_class("oläkbar", av).
 word_class("oinsjuknad", av).
 word_class("träig", av).
-word_class("dödstråkig",  'dötråkig']).
+word_class("dödstråkig", av).
 word_class("enastående", av).
 word_class("otillfredsställd", av).
 word_class("försedd", av).
@@ -2361,7 +2361,7 @@ word_class("torr", av).
 word_class("akutopererad", av).
 word_class("obehaglig", av).
 word_class("döende", av).
-word_class("nedstämd",  'nerstämd']).
+word_class("nedstämd", av).
 word_class("lastdryg", av).
 word_class("misslyckas", vb).
 word_class("tonlös", av).
@@ -2383,7 +2383,7 @@ word_class("inbillningssjuk", av).
 word_class("fullspäckad", av).
 word_class("ironisk", av).
 word_class("avgifta", vb).
-word_class("smittosam",  'smittsam']).
+word_class("smittosam", av).
 word_class("ny", av).
 word_class("tajt", av).
 word_class("bevänt", av).
@@ -2450,7 +2450,7 @@ word_class("seren", av).
 word_class("oimponerad", av).
 word_class("embellerbar", av).
 word_class("annorlunda", av).
-word_class("lägrestående",  'lägre stående']).
+word_class("lägrestående", avm).
 word_class("småskratta", vb).
 word_class("lugn", av).
 word_class("överlycklig", av).
@@ -2462,11 +2462,11 @@ word_class("äppelpräktig", av).
 word_class("talangfull", av).
 word_class("svårligen", ab).
 word_class("paja", vb).
-word_class("gladelig",  'gladlig']).
+word_class("gladelig", av).
 word_class("suverän", av).
-word_class("storsinnad",  'storsint']).
+word_class("storsinnad", av).
 word_class("felbehandlad", av).
-word_class("tillfreds",  'till freds']).
+word_class("tillfreds", avm).
 word_class("inoperera", vb).
 word_class("svårmodig", av).
 word_class("blöt", av).
@@ -2484,7 +2484,7 @@ word_class("skära", vb).
 word_class("obesmittad", av).
 word_class("nöjd", av).
 word_class("kreativ", av).
-word_class("nedslå",  'nerslå']).
+word_class("nedslå", vb).
 word_class("insmickrande", av).
 word_class("dona", vb).
 word_class("lägga", vb).
@@ -2507,7 +2507,7 @@ word_class("asenkel", av).
 word_class("skura", vb).
 word_class("oembellerbar", av).
 word_class("oharangerad", av).
-word_class("nedslagen",  'nerslagen']).
+word_class("nedslagen", av).
 word_class("glättig", av).
 word_class("elda", vb).
 word_class("resultera", vb).
@@ -2550,7 +2550,7 @@ word_class("tapper", av).
 word_class("hjälpsam", av).
 word_class("snärtig", av).
 word_class("lätt", av).
-word_class("nedsmord",  'nersmord']).
+word_class("nedsmord", av).
 word_class("ohyllad", av).
 word_class("akta", vb).
 word_class("svårbemästrad", av).
@@ -2572,7 +2572,7 @@ word_class("förgrova", vb).
 word_class("knappast", ab).
 word_class("påskfirande", av).
 word_class("ohelad", av).
-word_class("tipptopp",  'tiptop']).
+word_class("tipptopp", av).
 word_class("jovial", av).
 word_class("sätta", vb).
 word_class("gosig", av).
@@ -2599,7 +2599,7 @@ word_class("nystädad", av).
 word_class("putslustig", av).
 word_class("bestraffa", vb).
 word_class("febersjuk", av).
-word_class("opphöja",  'upphöja']).
+word_class("opphöja", vb).
 word_class("klar", av).
 word_class("betydelsefull", av).
 word_class("komma", vb).
@@ -2609,7 +2609,7 @@ word_class("präktig", av).
 word_class("rar", av).
 word_class("försanthållen", av).
 word_class("hämnas", vb).
-word_class("bortoperera",  'operera bort']).
+word_class("bortoperera", vbm).
 word_class("utomordentlig", av).
 word_class("oaktad", av).
 word_class("krävande", av).
@@ -2727,14 +2727,14 @@ word_class("vända", vb).
 word_class("rejäl", av).
 word_class("artrik", av).
 word_class("melankolisk", av).
-word_class("oppvakta",  'uppvakta']).
+word_class("oppvakta", vb).
 word_class("känna", vb).
 word_class("optimera", vb).
 word_class("hyvens", av).
 word_class("bedrövlig", av).
 word_class("berömma", vb).
 word_class("mygla", vb).
-word_class("uschlig",  'uslig']).
+word_class("uschlig", av).
 word_class("lättvunnen", av).
 word_class("gälda", vb).
 word_class("vänta", vb).
@@ -2821,7 +2821,7 @@ word_class("bekymmerslös", av).
 word_class("stjäla", vb).
 word_class("affärsmässig", av).
 word_class("förfula", vb).
-word_class("elementar",  'elementär']).
+word_class("elementar", av).
 word_class("missbelåten", av).
 word_class("fotriktig", av).
 word_class("venerabel", av).
@@ -2949,7 +2949,7 @@ word_class("fördomsfull", av).
 word_class("aggravera", vb).
 word_class("lattjo", av).
 word_class("överskådlig", av).
-word_class("jämgod",  'jämngod']).
+word_class("jämgod", av).
 word_class("opassande", av).
 word_class("bevara", vb).
 word_class("rena", vb).
@@ -3055,7 +3055,7 @@ word_class("illmarig", av).
 word_class("etablerad", av).
 word_class("skyddsvärd", av).
 word_class("spela", vb).
-word_class("gentil",  'schangtil').
+word_class("gentil", av).
 word_class("horisontell", av).
 word_class("rätt", av).
 word_class("lättsmickrad", av).
@@ -3212,7 +3212,7 @@ word_class("kolonisera", vb).
 word_class("kriminalisera", vb).
 word_class("oförädlad", av).
 word_class("anspråkslös", av).
-word_class("nedslående",  'nerslående']).
+word_class("nedslående", av).
 word_class("klara", vb).
 word_class("vardagstrevlig", av).
 word_class("planera", vb).
@@ -3242,7 +3242,7 @@ word_class("flott", av).
 word_class("ren", av).
 word_class("hedervärd", av).
 word_class("tidig", av).
-word_class("avstänga",  'stänga av']).
+word_class("avstänga", vbm).
 word_class("prisa", vb).
 word_class("fullständig", av).
 word_class("hädisk", av).
@@ -3323,7 +3323,7 @@ word_class("livad", av).
 word_class("otidig", av).
 word_class("skön", av).
 word_class("operera", vb).
-word_class("superb",  'syperb']).
+word_class("superb", av).
 word_class("presentabel", av).
 word_class("oberömd", av).
 word_class("deprimerande", av).
@@ -3415,7 +3415,7 @@ word_class("godsint", av).
 word_class("följdenlig", av).
 word_class("tandlös", av).
 word_class("inhuman", av).
-word_class("oppfriskande",  'uppfriskande']).
+word_class("oppfriskande", av).
 word_class("minska", vb).
 word_class("förvärva", vb).
 word_class("urtrist", av).
@@ -3446,7 +3446,7 @@ word_class("felaktig", av).
 word_class("superfin", av).
 word_class("rumla", vb).
 word_class("rik", av).
-word_class("oppiggande",  'uppiggande']).
+word_class("oppiggande", av).
 word_class("cancersjuk", av).
 word_class("säll", av).
 word_class("tuff", av).
