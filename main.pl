@@ -2,16 +2,14 @@
 
 novel("att vara ganska tragisk").
 
-word_analysis(Element, LowerCase) :-
-    string_lower(Element, LowerCase),
-    word_strength(LowerCase, 0).
-
+% Random word with the same score for now 
 word_analysis(Element, NewWord) :-
     string_lower(Element, LowerCase),
     word_strength(LowerCase, Strength),
     findall(NewWord, word_strength(NewWord, Strength), NewWords),
     random_member(NewWord, NewWords).
 
+% Word which does not exist in the database
 word_analysis(Element, Element).
 
 p() :-
