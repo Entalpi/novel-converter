@@ -7,7 +7,7 @@ sagorna. Hon bodde i ett land som vi kan kalla Monismanien,
 nånting måste vi ju kalla det.").
 
 % Converts positive words to negative ones if defined.
-positive_to_negative() :- true.
+positive_to_negative() :- false.
 
 % Clamps the value to one side of 0
 clamp(Value, NewValue) :-
@@ -41,7 +41,7 @@ write_word(Word) :-
     write(Word),
     write(" ").
 
-% Prints the word list in a  more humane format
+% Prints the word list in a more humane format
 pretty_print_out(Out) :-
     maplist(write_word, Out).
 
@@ -50,3 +50,4 @@ p() :-
     split_string(X, " ", "", L),
     maplist(word_analysis, L, Out),
     pretty_print_out(Out).
+
