@@ -1,7 +1,7 @@
 :- use_module(library(apply)).
 :- use_module(library(lists)).
 
-novel("NU SKA JAG berätta en saga. Den handlar om en människa,
+novel("Nu ska jag berätta en saga. Den handlar om en människa,
 Pomperipossa kan vi kalla henne, för det brukar ju folk heta i
 sagorna. Hon bodde i ett land som vi kan kalla Monismanien,
 nånting måste vi ju kalla det.").
@@ -37,8 +37,16 @@ word_analysis(Element, NewWord) :-
 % Words which do not exist in the database
 word_analysis(Element, Element).
 
+write_word(Word) :-
+    write(Word),
+    write(" ").
+
+% Prints the word list in a  more humane format
+pretty_print_out(Out) :-
+    maplist(write_word, Out).
+
 p() :-
     novel(X),
     split_string(X, " ", "", L),
     maplist(word_analysis, L, Out),
-    write(Out).
+    pretty_print_out(Out).
