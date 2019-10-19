@@ -2,16 +2,17 @@
 
 novel("att vara ganska tragisk").
 
-% word_strength(_, 0).
-
 word_analysis(Element, LowerCase) :-
-    string_lower(Element, LowerCase), 
+    string_lower(Element, LowerCase),
     word_strength(LowerCase, 0).
 
 word_analysis(Element, NewWord) :-
     string_lower(Element, LowerCase),
     word_strength(LowerCase, Strength),
-    word_strength(NewWord, -Strength).
+    findall(NewWord, word_strength(NewWord, Strength), NewWords),
+    random_member(NewWord, NewWords).
+
+word_analysis(Element, Element).
 
 p() :-
     novel(X),

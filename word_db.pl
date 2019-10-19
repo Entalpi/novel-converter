@@ -3654,4 +3654,3 @@ word_strength("vitmålad", 2).
 word_strength("glitterfin", 2).
 word_strength("spricka", -2).
 word_strength("timid", 2).
-word_strength(_, 0).
