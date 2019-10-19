@@ -2,16 +2,16 @@
 
 novel("att vara ganska tragisk").
 
-% word_strength(_, 0).
-
-word_analysis(Element, LowerCase) :-
-    string_lower(Element, LowerCase), 
-    word_strength(LowerCase, 0).
-
+% Random word with the inverse sentimental score
 word_analysis(Element, NewWord) :-
     string_lower(Element, LowerCase),
     word_strength(LowerCase, Strength),
-    word_strength(NewWord, -Strength).
+    InvStrength is -integer(Strength),
+    findall(NewWord, word_strength(NewWord, InvStrength), NewWords),
+    random_member(NewWord, NewWords).
+
+% Word which does not exist in the database
+word_analysis(Element, Element).
 
 p() :-
     novel(X),
