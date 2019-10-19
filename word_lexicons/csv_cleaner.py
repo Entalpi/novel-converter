@@ -8,7 +8,7 @@ fd_out = open(fd_out_name, "w")
 # State words
 lines = fd.readlines()[1:]
 for line in lines:
-    word = line.split(",")[0].replace("\"", "")
+    word = line.split(",")[0]#.replace("\"", "")
     if " " in word:
         continue
     # strength = line.split(",")[2]
@@ -17,7 +17,7 @@ for line in lines:
 
 # State words and its strengts
 for line in lines:
-    word = line.split(",")[0].replace("\"", "")
+    word = line.split(",")[0]#.replace("\"", "")
     if " " in word:
         continue
     strength = line.split(",")[2]
