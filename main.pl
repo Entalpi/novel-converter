@@ -1,10 +1,13 @@
 :- use_module(library(apply)).
 :- use_module(library(lists)).
 
-novel("att vara ganska tragisk är en väldig synd").
+novel("NU SKA JAG berätta en saga. Den handlar om en människa,
+Pomperipossa kan vi kalla henne, för det brukar ju folk heta i
+sagorna. Hon bodde i ett land som vi kan kalla Monismanien,
+nånting måste vi ju kalla det.").
 
 % Converts positive words to negative ones if defined.
-positive_to_negative() :- false.
+positive_to_negative() :- true.
 
 % Clamps the value to one side of 0
 clamp(Value, NewValue) :-
